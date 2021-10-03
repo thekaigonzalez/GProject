@@ -1,0 +1,3 @@
+COMPILER(gcc);
+FLAGS(-O2 -o hello);
+SRC(src/hello.c);

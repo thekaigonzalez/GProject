@@ -1,0 +1,9 @@
+COMPILER(
+    dmd
+);
+
+FLAGS(
+    -O
+);
+
+SRC(source/gproject.d lib/gmacro.d);
