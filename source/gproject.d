@@ -10,7 +10,7 @@ import lib.gmacro;
 int main(string[] args) {
     if (args.length == 2) {
         if (args[1] == "-help" || args[1] == "help") {
-            writeln("usage: "~args[0]~" [-help] [-version] [run|build|configuration|debug]");
+            writeln("usage: "~args[0]~" [-help] [-version] [run]");
         }
     } 
     if (args.length == 3) {
