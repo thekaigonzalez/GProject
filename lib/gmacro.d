@@ -40,7 +40,7 @@ public:
             if (stat.startsWith("#")) {
                             continue;
             }
-            if (stat.length > 1 && !startsWith(stat, ";")) {
+            else if (stat.length > 1 && !startsWith(stat, ";")) {
                 string fname = stat[0 .. stat.indexOf("(")];
                 string fargs = stat[stat.indexOf("(")+1 .. stat.indexOf(")")];
                 fargs = fargs.strip();
