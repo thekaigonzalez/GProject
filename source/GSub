@@ -1,0 +1,5 @@
+COMPILER(dmd);
+
+FLAGS(-O -I../lib/ ../lib/*.d);
+
+SRC(gproject.d);
